@@ -2120,11 +2120,12 @@ This meter does not provide detailed information regarding phase etc.
     1,77070100010802ff@1000,Energie Tarif 2,kWh,energy_tarif2,3
     1,77070100020800ff@1000,Einspeisung,kWh,energy_supply,3
     1,=h --------------
-    1,77070100100700ff@1,Leistung,W,power,16
+    1,77070100100700ff@1,Leistung,W,power,0
     1,=h --------------
     1,77070100600100ff@#,Server ID,,meter_number,0
     #
     ```	
+To see current Power consumption and decimals for energy, you need to set Inf-Mode to ON. To do this enter the PIN and cycle through the menu until inf by short pressing the button. To set to ON long press the button.
 	
 ### Logarex LK13BE (SML) (e.g. LK13BE6067x9)
 
